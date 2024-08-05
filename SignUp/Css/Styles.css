@@ -1,5 +1,9 @@
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 body{
     background-color: #24353f;
@@ -21,7 +25,6 @@ width: 60%;
 }
 .form-control{
     background-color: #24353f;
-    color: white;
     border-radius: 5px;
 
 }
@@ -51,3 +54,7 @@ h3 a {
 h3 a:hover {
     text-decoration: underline;
 }
+input::placeholder,
+  textarea::placeholder {
+      color: rgb(255, 255, 255) !important;
+  }
